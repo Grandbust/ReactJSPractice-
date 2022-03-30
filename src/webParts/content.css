@@ -1,0 +1,162 @@
+#content {
+    display: flex;
+    flex-direction: column;
+    grid-area: content;
+}
+
+#hotel-banner{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: 200px;
+}
+
+#hotel-banner img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#hotel-header{
+    display: flex;
+    border-bottom: 2px solid lightblue;
+}
+
+#hotel-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    flex-grow: 1;
+}
+
+#hotel-rating{
+    display: flex;
+    background-color: hsl(209, 52%, 62%);
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    width: 100px;
+    padding: 1em 0;
+}
+
+#hotel-rating p{
+    margin: 0;
+}
+
+#rating-value{
+    font-size: 1.5em;
+}
+
+#hotel-title h2{
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: 200;
+}
+
+#hotel-title a{
+    font-size: 1em;
+}
+
+#hotel-description{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 30px;
+    background-color: white;
+}
+
+#merge-hotel{
+    display: grid;
+    padding: 30px;
+    gap:30px;
+    font-size: 0.8em;
+    grid-template-columns: 1.5fr 1fr;
+    background-color: hsl(202, 57%, 89%);
+}
+
+#additional-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    padding: 1em 0 ;
+    color: black;
+    border-top: 1px solid hsl(209, 52%, 62%);
+    border-bottom: 1px solid hsl(209, 52%, 62%);
+    width: 100%;
+    list-style-type: none;
+}
+
+#up-desc{
+    margin-bottom: 1em;
+}
+
+.custom-text{
+    color: black;
+}
+
+.review {
+    padding: 35px;
+    background-color: white;
+}
+
+.user-review{
+    display: flex;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.user-img{
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 2em;
+    width: 5em;
+    height: 5em;
+}
+
+#reviewAll{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+#read-more{
+    display:flex;
+    align-items: center;
+    color: hsl(209, 75%, 50%);
+    font-size: 1em;
+    cursor: pointer;
+    text-align: right;
+}
+
+#page-footer{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1em 0;
+}
+
+#footer-text{
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+#footer-btn{
+    background: rgb(177,215,237);
+    color: white;
+    border: 0;
+    border-radius: 25px;
+    font-size: 1em;
+    cursor: pointer;
+    padding: 0.6em 2em;
+}
+
+
+

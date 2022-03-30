@@ -1,0 +1,49 @@
+#navbar, #navbar-group, #navbar-member, #navbar-icon{
+    display:flex;
+}
+
+#navbar{
+    padding : 15px; 
+    border-bottom:  lightblue 2px solid;
+    justify-content: space-between;
+    grid-area: header;
+}
+
+#navbar-user, #navbar-icon{
+    align-items: center;
+    gap: 1.2em;
+}
+
+#navbar-group {
+    gap:2em;
+    margin-right: 0.5em;
+    justify-content: end;
+}
+
+#navbar img {
+    height: 100%;
+}
+
+#navbar-search {
+    width: 40%;
+    margin-left: 1em;
+    padding: 0 1em;
+    border-radius: 25px;
+    border: 1px solid hsl(0, 0%, 90%);
+    background-color: hsl(0, 0%, 90%);
+}
+
+#navbar-search:focus {
+    border:1px solid lightgrey;
+    box-shadow: 0 0 5px hsl(0, 0%, 70%);
+}
+
+#user-icon{
+    border-radius:50px;
+}
+
+#user-name{
+    margin: auto;
+    padding-left: 20px;
+}
+

@@ -1,0 +1,28 @@
+#sidebar{
+    background-color: hsl(209, 52%, 62%);
+    grid-area: sidebar;
+    height: 100%;
+    flex-direction: column;
+
+}
+
+ul > li {
+    list-style-type: none;
+    margin-bottom: 2em;
+    color: white;
+    display: flex;
+}
+
+ul > li:hover {
+    background-color: hsl(209, 52%, 40%);
+
+}
+
+
+#copyright{
+    text-align: center;
+    margin-top: 61em;
+    margin-bottom: 15px;
+    font-size: small;
+    color: white;
+}
